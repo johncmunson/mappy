@@ -24,7 +24,7 @@ body {
 .img {
     position: absolute;
     display: none;
-    pointer-events: none;
+    pointer-events: none; /* prevent flickering */
 }
 
 #hover {
