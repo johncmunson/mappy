@@ -1,4 +1,5 @@
-var states = require('./states.json')
+import './index.css'
+import states from './states.json'
 
 // Wait for document skeleton to load
 document.addEventListener("DOMContentLoaded", function() {
